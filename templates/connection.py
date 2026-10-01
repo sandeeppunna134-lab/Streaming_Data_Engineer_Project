@@ -10,7 +10,7 @@ load_dotenv()  # Load environment variables from .env file
 import os
 
 # Pulling Data Generator Function
-from data import generate_uber_ride_confirmation
+from templates.data import generate_uber_ride_confirmation
 
 CONNECTION_STRING = os.getenv("CONNECTION_STRING")
 EVENT_HUBNAME = os.getenv("EVENT_HUBNAME")
